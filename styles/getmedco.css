@@ -228,6 +228,19 @@ p {
   font-size: .825rem;
   font-weight: 500;
   margin: 2px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.card-1 li::after, .card-2 li::after, .card-3 li::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: #5d2232;
+  border-radius: 50%;
 }
 
 .section {
