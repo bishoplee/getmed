@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>GetMed Co.</title>
+  <meta name="author" content="BlueMatrix Technologies">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="fullPage responsive feature for small screen devices">
+  <meta name="keywords" content="fullpage,jquery,demo,responsive,feature,media,queries,tablets,phones,screen,small">
+  <meta name="Resource-type" content="Document">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./styles/fullpage.css">
+  <link rel="stylesheet" type="text/css" href="./styles/getmedco.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div id='logo'>
+      <img src="./images/getmedco-logo.png" alt="official logo of GetMed">
+    </div>
+    <nav>
+      <ul id="menu" class='raleway-400'>
+        <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+        <li data-menuanchor="GetMed"><a href="#GetMed">GetMed</a></li>
+        <li data-menuanchor="GetStarted"><a href="#GetStarted">Get Started</a></li>
+        <li data-menuanchor="GetConnected"><a href="#GetConnected">Get Connected</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class='raleway-300'>
+    <div id="fullpage" class="fullpage-wrapper">
+      <div class="section fp-section fp-table fp-is-overflow active fp-completely" id="section0" data-anchor="Home">
+        <div class="fp-overflow flex justify-center" tabindex="-1">
+          <div class="intro flex">
+            <div class='flex-1'>
+              <h1 class='tx'>
+                <span>
+                  Unparalleled
+                </span>
+                healthcare at your
+              </h1>
+              <p>You don't have to travel to access world-class healthcare. We travel to you, no matter where.</p>
+            </div>
+
+            <div class=' '></div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section fp-section fp-table fp-is-overflow active fp-completely" id="section1" data-anchor="GetMed">
+        <div class="fp-overflow flex justify-center" tabindex="-1">
+          <div class="intro flex">
+            <div class='flex-1'>
+              <p>
+                <img src='./images/getmedco-logo.png' class='i-small greyscale' alt=''> 
+                is a concierge healthcare service catered to your individual needs. At home, the care you need is often out of reach. We bring world-class primary healthcare to your doorstep.
+              </p>
+              <p>Your care is delivered by award-winning primary care physicians with decades of experience in preventive medicine. With complete discretion, we ensure that your most delicate personal asset – your health – is in the right hands. </p>
+            </div>
+
+            <div class=' '></div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="section fp-section fp-is-overflow" id="section1" data-anchor="GetMed">
+        <div class="fp-slides">
+          <div class="fp-slidesContainer">
+            <div class="slide fp-slide fp-table fp-is-overflow" id="slide1">
+              <div class="fp-overflow" tabindex="-1">
+                <div class="intro">
+                  <h1>Ideal for small screens</h1>
+                </div>
+              </div>
+            </div>
+            <div class="slide fp-slide fp-table fp-is-overflow active" id="slide2">
+              <div class="fp-overflow" tabindex="-1">
+                <h1>This example uses responsiveWidth: 1100</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fp-arrow fp-controlArrow fp-prev"></div>
+        <div class="fp-arrow fp-controlArrow fp-next"></div>
+  
+      </div> -->
+
+      <div class="section fp-section fp-table fp-is-overflow" id="section2" data-anchor="GetStarted">
+        <div class="fp-overflow" tabindex="-1">
+          <div class="intro">
+            <p>
+              What you do is pivotal. We ensure you are in the best possible health to continue your journey of greatness. Our care options are tailored to what best fits your lifestyle.
+            </p>
+          </div>
+          <div class='info'>
+            <div class='card-1'>
+              <h2>The TRAVELER</h2>
+              <span></span>
+              <p>For leaders always on the go</p>
+              <ul>
+                <li>Three detailed at-home physical and cardiac evaluations by your personal doctor</li>
+                <li>Monthly virtual touchpoints with your personal doctor</li>
+                <li>At-will virtual personal consultation at any time of your choosing.</li>
+                <li>At-home blood tests with detailed interpretation of results</li>
+                <li>A wellness plan customized to your individual health goals</li>
+                <li>Coordination of preventive tests and age-appropriate screenings</li>
+                <li>Medication prescription obtained and delivered from the USA</li>
+                <li>Holistic health offerings with exercise and dietary counseling</li>
+                <li>Liaison with a top local hospital and emergency care service for acute care</li>
+                <li>Collaboration with leading US-based consultants for various medical conditions</li>
+              </ul>
+            </div>
+            <div class='card-2'>
+              <h2>The THINKER</h2>
+              <span></span>
+              <p>For leaders always on the go</p>
+            </div>
+            <div class='card-3'>
+              <h2>The RUNNER</h2>
+              <span></span>
+              <p>For leaders always on the go</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section fp-section fp-table fp-is-overflow" id="section3" data-anchor="GetConnected">
+        <div class="fp-overflow" tabindex="-1">
+          <div class="intro">
+            <p>
+              Let's discuss. Please put your details in below and we will reach out shortly
+            </p>
+          </div>
+
+          <div id='form'>
+            <div class='flex'>
+              <input type="text" placeholder='Name' class='w-1-2'>
+              <input type="text" placeholder='Phone Number' class='w-1-2'>
+            </div>
+            <div>
+              <input type="text" placeholder='Address'>
+            </div>
+            <div>
+              <input type="button" value="Submit" style='background-color: antiquewhite; color: #222;'>
+            </div>
+            
+          </div>
+        </div>
+        <!-- <div class="fp-watermark" style="right: 0;">
+          <a href="https://alvarotrigo.com/fullPage/" rel="nofollow noopener" target="_blank">
+            Made with love by BlueMatrix Technologies
+          </a>
+        </div> -->
+      </div>
+
+    </div>  
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script type="text/javascript" src="./script/fullpage.js"></script>
+  <!-- <script type="text/javascript" src="./script/getmedco.js"></script> -->
+  <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+      anchors: ['Home', 'GetMed', 'GetStarted', 'GetConnected'],
+      // sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', ''],
+      sectionsColor: ['#4d1119', '#718e99', '#132d43', '#4d1119'],
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['Home', 'GetMed', 'Get Started', 'Get Connected'],
+      responsiveWidth: 1100,
+      afterResponsive: function (isResponsive) {
+
+      }
+
+    });
+  </script>
+  <div id="fp-nav" class="fp-right" style="display: none;">
+    <ul>
+      <li><a href="#Home" class="active"><span class="fp-sr-only">Home</span><span></span></a>
+        <div class="fp-tooltip fp-right">Home</div>
+      </li>
+      <li><a href="#GetMed" class=""><span class="fp-sr-only">GetMed</span><span></span></a>
+        <div class="fp-tooltip fp-right">GetMed</div>
+      </li>
+      <li><a href="#GetStarted" class=""><span class="fp-sr-only">Get%20Started</span><span></span></a>
+        <div class="fp-tooltip fp-right">Get Started</div>
+      </li>
+      <li><a href="#GetConnected" class=""><span class="fp-sr-only">Get%20Connected</span><span></span></a>
+        <div class="fp-tooltip fp-right">Get Connected</div>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
