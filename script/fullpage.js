@@ -230,7 +230,9 @@
     }
     function index(item, selector) {
         item = isArrayOrList(item) ? item[0] : item;
+        console.log(item)
         var children = selector != null ? $(selector, item.parentNode) : item.parentNode.childNodes;
+        console.log(children)
         var num = 0;
         for (var i = 0; i < children.length; i++) {
             if (children[i] == item)
