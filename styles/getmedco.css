@@ -41,6 +41,14 @@
 #form ipnut::nth-child(2n) {
   width: 50%;
 }
+
+.w-1-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.w-1-4 {
+  width: calc(100% / 12 * 4);
+}
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 900 */
 
@@ -163,12 +171,12 @@ p {
 }
 
 .intro {
-  max-width: 1280px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
 .intro p {
-  width: 50%;
+  /* width: 50%; */
   margin: 0 auto;
   font-size: 1.5em
 }
