@@ -1,0 +1,96 @@
+:root {
+  --full-width: 100%;
+}
+
+/* fonts */
+.raleway-100 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.raleway-200 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.raleway-300 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-500 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* widths */
+.row {
+  width: var(--full-width);
+  margin: 0 auto;
+
+}
+.w-full {
+  width: var(--full-width);
+}
+.w-1 {
+  width: calc(var(--full-width / 12));
+}
+.w-2 {
+  width: calc(var(--full-width) / 6);
+}
+.w-3 {
+  width: calc(var(--full-width) / 4);
+}
+.w-4 {
+  width: calc(var(--full-width) / 3);
+}
+.w-6 {
+  width: calc(var(--full-width) / 2);
+}
+/* .w-1-3 {
+  width: calc(var(--full-width) / 3);
+}
+.w-3-4 {
+  width: calc(var(--full-width) / 3);
+} */
+
+/* breakpoints */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
